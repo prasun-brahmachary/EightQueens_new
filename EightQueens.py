@@ -51,7 +51,7 @@ class EightQueens:
             line = ""
             for column in range(self.size):
                 if positions[row] == column:
-                    QueenMatrix.append(column+1)
+                    QueenMatrix.append(column)
 
         print(QueenMatrix)
 
